@@ -480,3 +480,31 @@ body {
     height: 100%;
     border: 0;
 }
+
+
+/* new skill add */
+.badges {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px; 
+}
+.badges img {
+    min-width: 20%;
+    max-width: 30%; 
+    height: auto; 
+}
+
+@media (min-width: 768px) {
+    .skills-container {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .skills-column {
+        margin-bottom: 20px;
+    }
+}
+
+
